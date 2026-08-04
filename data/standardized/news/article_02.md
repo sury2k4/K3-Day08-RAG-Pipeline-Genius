@@ -25,4 +25,3 @@ Trong trường hợp của con trai bà Vân Anh vì sức khỏe phải điề
 
 Trong trường hợp con trai bà không có giấy tờ nêu trên thì sẽ bị phạt tiền theo đúng quy định của Nghị định 95/2013/NĐ-CP.
 
-Chinhphu.vn

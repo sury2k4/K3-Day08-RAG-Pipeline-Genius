@@ -60,29 +60,3 @@ Thông tư này.
 2. Trong quá trình triển khai thực hiện, nếu có vướng mắc đề nghị các cơ
 quan, tổ chức, cá nhân phản ánh về Bộ Lao động - Thương binh và Xã hội để
 nghiên cứu, sửa đổi, bổ sung cho phù hợp.
-Nơi nhận:
-BỘ TRƯỞNG
-- Ban Bí thư TW Đảng;
-- Thủ tướng, các Phó Thủ tướng;
-- Văn phòng Tổng Bí thư;
-- Văn phòng TW Đảng và các ban của Đảng;
-- Văn phòng Quốc hội;
-- Văn phòng Chủ tịch nước,
-- Văn phòng Chính phủ;
-- Viện Kiểm sát nhân dân tối cao;
-- Tòa án nhân dân tối cao;
-- Kiểm toán nhà nước;
-- Các Bộ, cơ quan ngang bộ, cơ quan thuộc CP; Đào Ngọc Dung
-- Cơ quan TW của các đoàn thể;
-- HĐND, UBND tỉnh, thành phố trực thuộc TW;
-- Cục Kiểm tra văn bản QPPL Bộ Tư pháp;
-- Thanh tra Chính phủ;
-- Thanh tra Bộ, ngành TW;
-- Sở LĐTBXH các tỉnh, thành phố trực thuộc TW;
-- Thanh tra Sở LĐTBXH các tỉnh, thành phố trực
-thuộc TW;
-- Cổng thông tin điện tử Chính phủ;
-- Cổng thông tin điện tử Bộ LĐTBXH;
-- Công báo;
-- Các đơn vị thuộc Bộ LĐTBXH;
-- Lưu: VT, Thanh tra.
