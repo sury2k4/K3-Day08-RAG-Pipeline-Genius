@@ -1,17 +1,202 @@
 [
   {
-    "question": "Học phí hàng năm của chương trình Business tại RMIT Vietnam là bao nhiêu?",
-    "expected_answer": "Khoảng 375.840.000 VND mỗi năm (tùy chương trình cụ thể).",
-    "expected_context": "Trang Tuition Fees, mục Undergraduate Programs"
+    "id": "LL01",
+    "category": "hop_dong",
+    "difficulty": "easy",
+    "question": "Hợp đồng lao động ký điện tử có giá trị như hợp đồng bằng văn bản không?",
+    "expected_answer": "Có. Hợp đồng lao động giao kết bằng thông điệp dữ liệu theo pháp luật giao dịch điện tử có giá trị như hợp đồng bằng văn bản.",
+    "expected_context": "Điều 14 Bộ luật Lao động 2019 về hình thức hợp đồng lao động.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 14", "phương tiện điện tử", "thông điệp dữ liệu", "giá trị như hợp đồng lao động bằng văn bản"]
   },
   {
-    "question": "Học phí được thanh toán theo hình thức nào?",
-    "expected_answer": "Thanh toán theo từng học kỳ, tính theo từng môn học đã đăng ký.",
-    "expected_context": "Trang Tuition Fees, mục Payment Structure"
+    "id": "LL02",
+    "category": "hop_dong",
+    "difficulty": "easy",
+    "question": "Bộ luật Lao động 2019 quy định có những loại hợp đồng lao động nào?",
+    "expected_answer": "Có hai loại: hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn không quá 36 tháng.",
+    "expected_context": "Điều 20 Bộ luật Lao động 2019 về loại hợp đồng lao động.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 20", "không xác định thời hạn", "xác định thời hạn", "không quá 36 tháng"]
   },
   {
-    "question": "Trường có cung cấp ký túc xá trong khuôn viên không?",
-    "expected_answer": "Không — trường không cung cấp chỗ ở trong khuôn viên, nhưng có đội ngũ hỗ trợ sinh viên tìm chỗ ở gần trường.",
-    "expected_context": "Trang Accommodation Services"
+    "id": "LL03",
+    "category": "hop_dong",
+    "difficulty": "medium",
+    "question": "Hợp đồng lao động dưới 1 tháng có thể giao kết bằng lời nói không?",
+    "expected_answer": "Có thể giao kết bằng lời nói đối với hợp đồng dưới 01 tháng, trừ các trường hợp đặc biệt được Điều 14 dẫn chiếu.",
+    "expected_context": "Khoản 2 Điều 14 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["bằng lời nói", "dưới 01 tháng", "khoản 2 Điều 14"]
+  },
+  {
+    "id": "LL04",
+    "category": "thu_viec",
+    "difficulty": "medium",
+    "question": "Thử việc vị trí lập trình viên cần trình độ cao đẳng tối đa bao lâu và được trả tối thiểu bao nhiêu phần trăm lương?",
+    "expected_answer": "Tối đa 60 ngày đối với công việc cần trình độ từ cao đẳng trở lên; lương thử việc ít nhất bằng 85% lương của công việc đó.",
+    "expected_context": "Điều 25 và Điều 26 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 25", "không quá 60 ngày", "Điều 26", "ít nhất phải bằng 85%"]
+  },
+  {
+    "id": "LL05",
+    "category": "thu_viec",
+    "difficulty": "easy",
+    "question": "Một công việc có được yêu cầu thử việc nhiều lần không?",
+    "expected_answer": "Không. Chỉ được thử việc một lần đối với một công việc.",
+    "expected_context": "Điều 25 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["chỉ được thử việc một lần", "đối với một công việc", "Điều 25"]
+  },
+  {
+    "id": "LL06",
+    "category": "thu_viec",
+    "difficulty": "medium",
+    "question": "Trong thời gian thử việc tôi nghỉ ngang có cần báo trước và bồi thường không?",
+    "expected_answer": "Không. Trong thời gian thử việc, mỗi bên có quyền hủy bỏ hợp đồng thử việc hoặc hợp đồng lao động mà không cần báo trước và không phải bồi thường.",
+    "expected_context": "Khoản 2 Điều 27 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 27", "không cần báo trước", "không phải bồi thường", "hủy bỏ hợp đồng thử việc"]
+  },
+  {
+    "id": "LL07",
+    "category": "dieu_chuyen",
+    "difficulty": "hard",
+    "question": "Công ty được tạm chuyển tôi sang công việc khác tối đa bao nhiêu ngày và phải báo trước bao lâu?",
+    "expected_answer": "Không quá 60 ngày làm việc cộng dồn trong 01 năm nếu không có đồng ý bằng văn bản; công ty phải báo trước ít nhất 03 ngày làm việc.",
+    "expected_context": "Điều 29 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 29", "không được quá 60 ngày", "đồng ý bằng văn bản", "ít nhất 03 ngày làm việc"]
+  },
+  {
+    "id": "LL08",
+    "category": "cham_dut_hop_dong",
+    "difficulty": "medium",
+    "question": "Người lao động nghỉ việc phải báo trước 45, 30 hay 3 ngày trong trường hợp nào?",
+    "expected_answer": "Ít nhất 45 ngày với hợp đồng không xác định thời hạn; 30 ngày với hợp đồng xác định thời hạn từ 12 đến 36 tháng; 03 ngày làm việc với hợp đồng dưới 12 tháng.",
+    "expected_context": "Khoản 1 Điều 35 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 35", "ít nhất 45 ngày", "ít nhất 30 ngày", "ít nhất 03 ngày làm việc"]
+  },
+  {
+    "id": "LL09",
+    "category": "cham_dut_hop_dong",
+    "difficulty": "hard",
+    "question": "Bị công ty trả lương trễ hoặc quấy rối tình dục thì tôi có được nghỉ ngay không cần báo trước không?",
+    "expected_answer": "Có, nếu không được trả đủ hoặc đúng hạn (trừ ngoại lệ luật định), hoặc bị quấy rối tình dục tại nơi làm việc, người lao động có quyền đơn phương chấm dứt mà không cần báo trước.",
+    "expected_context": "Khoản 2 Điều 35 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["không cần báo trước", "không được trả đủ lương", "trả lương không đúng thời hạn", "quấy rối tình dục"]
+  },
+  {
+    "id": "LL10",
+    "category": "cham_dut_hop_dong",
+    "difficulty": "hard",
+    "question": "Công ty đơn phương chấm dứt hợp đồng trái luật phải bồi thường cho người lao động thế nào?",
+    "expected_answer": "Phải nhận người lao động trở lại, trả lương và đóng các bảo hiểm cho thời gian không được làm việc, đồng thời trả thêm ít nhất 02 tháng tiền lương; còn có nghĩa vụ bổ sung tùy trường hợp.",
+    "expected_context": "Điều 41 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 41", "nhận người lao động trở lại", "đóng bảo hiểm xã hội", "ít nhất bằng 02 tháng tiền lương"]
+  },
+  {
+    "id": "LL11",
+    "category": "hoc_nghe",
+    "difficulty": "medium",
+    "question": "Công ty tuyển tôi vào tập nghề có được thu học phí và kéo dài quá 3 tháng không?",
+    "expected_answer": "Không được thu học phí; thời hạn tập nghề để làm việc cho người sử dụng lao động không quá 03 tháng.",
+    "expected_context": "Điều 61 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 61", "không quá 03 tháng", "không được thu học phí", "tập nghề"]
+  },
+  {
+    "id": "LL12",
+    "category": "tien_luong",
+    "difficulty": "easy",
+    "question": "Công ty có được ép nhân viên dùng lương để mua sản phẩm của công ty không?",
+    "expected_answer": "Không. Người sử dụng lao động không được hạn chế hoặc can thiệp quyền tự quyết chi tiêu lương và không được ép mua hàng hóa, dịch vụ do mình chỉ định.",
+    "expected_context": "Điều 94 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 94", "quyền tự quyết chi tiêu lương", "không được ép buộc", "mua hàng hóa"]
+  },
+  {
+    "id": "LL13",
+    "category": "lam_them",
+    "difficulty": "medium",
+    "question": "Lương làm thêm ngày thường, ngày nghỉ hằng tuần và ngày lễ tối thiểu là bao nhiêu?",
+    "expected_answer": "Ít nhất 150% vào ngày thường, 200% vào ngày nghỉ hằng tuần và 300% vào ngày lễ, tết hoặc ngày nghỉ có hưởng lương, chưa kể lương ngày lễ đối với người hưởng lương ngày.",
+    "expected_context": "Khoản 1 Điều 98 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 98", "ít nhất bằng 150%", "ít nhất bằng 200%", "ít nhất bằng 300%"]
+  },
+  {
+    "id": "LL14",
+    "category": "lam_them",
+    "difficulty": "hard",
+    "question": "Doanh nghiệp được yêu cầu làm thêm tối đa bao nhiêu giờ mỗi ngày, tháng và năm?",
+    "expected_answer": "Phải có sự đồng ý; làm thêm không quá 50% giờ làm bình thường trong ngày, tổng giờ làm và làm thêm không quá 12 giờ/ngày khi tính theo tuần, không quá 40 giờ/tháng và thông thường không quá 200 giờ/năm; một số trường hợp được đến 300 giờ/năm.",
+    "expected_context": "Điều 107 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 107", "không quá 50%", "không quá 12 giờ", "không quá 40 giờ", "không quá 200 giờ", "không quá 300 giờ"]
+  },
+  {
+    "id": "LL15",
+    "category": "nghi_ngoi",
+    "difficulty": "easy",
+    "question": "Mỗi tuần người lao động được nghỉ tối thiểu bao lâu?",
+    "expected_answer": "Ít nhất 24 giờ liên tục mỗi tuần; trường hợp đặc biệt phải bảo đảm bình quân ít nhất 04 ngày nghỉ trong một tháng.",
+    "expected_context": "Điều 111 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 111", "ít nhất 24 giờ liên tục", "ít nhất 04 ngày"]
+  },
+  {
+    "id": "LL16",
+    "category": "nghi_ngoi",
+    "difficulty": "medium",
+    "question": "Người lao động Việt Nam có tổng cộng bao nhiêu ngày nghỉ lễ, Tết hưởng nguyên lương trong năm?",
+    "expected_answer": "Tổng cộng 11 ngày: Tết Dương lịch 1, Tết Âm lịch 5, Chiến thắng 1, Quốc tế Lao động 1, Quốc khánh 2 và Giỗ Tổ Hùng Vương 1 ngày.",
+    "expected_context": "Điều 112 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 112", "Tết Âm lịch: 05 ngày", "Quốc khánh: 02 ngày", "Giỗ Tổ Hùng Vương: 01 ngày"]
+  },
+  {
+    "id": "LL17",
+    "category": "nghi_ngoi",
+    "difficulty": "medium",
+    "question": "Làm đủ 12 tháng thì phép năm là 12, 14 hay 16 ngày?",
+    "expected_answer": "12 ngày với điều kiện bình thường, 14 ngày với lao động chưa thành niên, người khuyết tật hoặc công việc nặng nhọc, độc hại, nguy hiểm; 16 ngày với công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.",
+    "expected_context": "Điều 113 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 113", "12 ngày làm việc", "14 ngày làm việc", "16 ngày làm việc"]
+  },
+  {
+    "id": "LL18",
+    "category": "nghi_ngoi",
+    "difficulty": "easy",
+    "question": "Cứ làm việc đủ 5 năm thì được tăng thêm bao nhiêu ngày phép năm?",
+    "expected_answer": "Cứ đủ 05 năm làm việc cho một người sử dụng lao động thì được tăng thêm 01 ngày nghỉ hằng năm.",
+    "expected_context": "Điều 114 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 114", "đủ 05 năm", "tăng thêm", "01 ngày"]
+  },
+  {
+    "id": "LL19",
+    "category": "tien_luong",
+    "difficulty": "medium",
+    "question": "Công ty được khấu trừ tối đa bao nhiêu phần trăm lương hằng tháng của nhân viên?",
+    "expected_answer": "Mức khấu trừ hằng tháng không quá 30% tiền lương thực trả sau khi trích nộp bảo hiểm bắt buộc và thuế thu nhập cá nhân; chỉ được khấu trừ để bồi thường thiệt hại theo luật.",
+    "expected_context": "Điều 102 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 102", "không được quá 30%", "sau khi trích nộp", "bồi thường thiệt hại"]
+  },
+  {
+    "id": "LL20",
+    "category": "ky_luat",
+    "difficulty": "hard",
+    "question": "Công ty có được phạt tiền hoặc cắt lương thay cho xử lý kỷ luật lao động không?",
+    "expected_answer": "Không. Phạt tiền hoặc cắt lương thay việc xử lý kỷ luật lao động là hành vi bị nghiêm cấm.",
+    "expected_context": "Điều 127 Bộ luật Lao động 2019.",
+    "expected_sources": ["01_bo_luat_lao_dong_2019.md"],
+    "evidence_keywords": ["Điều 127", "Phạt tiền", "cắt lương", "bị nghiêm cấm"]
   }
 ]
