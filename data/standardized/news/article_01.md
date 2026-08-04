@@ -1,8 +1,11 @@
-# Quy định sắp xếp ngày nghỉ hằng tuần
-
-**Source:** https://baochinhphu.vn/quy-dinh-sap-xep-ngay-nghi-hang-tuan-1022607101123525.htm
-**Crawled:** 2026-08-04T10:25:05.364403
-
+---
+title: "Quy định sắp xếp ngày nghỉ hằng tuần"
+topic: ""
+source_name: ""
+source_url: "https://baochinhphu.vn/quy-dinh-sap-xep-ngay-nghi-hang-tuan-1022607101123525.htm"
+crawled_at: "2026-08-04T10:25:05.364403"
+source_file: "article_01.json"
+corpus_type: "news"
 ---
 # Quy định sắp xếp ngày nghỉ hằng tuần
 

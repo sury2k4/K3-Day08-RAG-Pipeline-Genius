@@ -1,8 +1,11 @@
-# Quy định về xử phạt lao động không về nước đúng hạn
-
-**Source:** https://baochinhphu.vn/quy-dinh-ve-xu-phat-lao-dong-khong-ve-nuoc-dung-han-102162073.htm
-**Crawled:** 2026-08-04T10:25:06.139155
-
+---
+title: "Quy định về xử phạt lao động không về nước đúng hạn"
+topic: ""
+source_name: ""
+source_url: "https://baochinhphu.vn/quy-dinh-ve-xu-phat-lao-dong-khong-ve-nuoc-dung-han-102162073.htm"
+crawled_at: "2026-08-04T10:25:06.139155"
+source_file: "article_02.json"
+corpus_type: "news"
 ---
 # Quy định về xử phạt lao động không về nước đúng hạn
 

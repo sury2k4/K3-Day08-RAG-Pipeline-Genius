@@ -1,8 +1,11 @@
-# Nghị định 300/2026/NĐ-CP về tuyển dụng, sử dụng và quản lý công chức
-
-**Source:** https://xaydungchinhsach.chinhphu.vn/nghi-dinh-300-2026-nd-cp-ve-tuyen-dung-su-dung-va-quan-ly-cong-chuc-119260803092354276.htm
-**Crawled:** 2026-08-04T10:25:07.797277
-
+---
+title: "Nghị định 300/2026/NĐ-CP về tuyển dụng, sử dụng và quản lý công chức"
+topic: ""
+source_name: ""
+source_url: "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-300-2026-nd-cp-ve-tuyen-dung-su-dung-va-quan-ly-cong-chuc-119260803092354276.htm"
+crawled_at: "2026-08-04T10:25:07.797277"
+source_file: "article_05.json"
+corpus_type: "news"
 ---
 # Nghị định 300/2026/NĐ-CP về tuyển dụng, sử dụng và quản lý công chức
 

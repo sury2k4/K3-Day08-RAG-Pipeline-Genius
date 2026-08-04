@@ -6,6 +6,7 @@ manually uploaded documents by default; call collect_legal_docs(download_missing
 only when you want to fetch missing files with a download_url.
 """
 
+import argparse
 from pathlib import Path
 
 import requests
@@ -113,6 +114,69 @@ def download_document(doc: dict, overwrite: bool = False) -> Path | None:
     return filepath
 
 
+def _document_metadata_for_file(path: Path) -> dict:
+    for doc in LEGAL_DOCUMENTS:
+        if path.name == doc["filename"] or path.name.startswith(doc["id"]):
+            return doc
+    return {}
+
+
+def validate_legal_documents(input_dir: str | Path = DATA_DIR) -> list[dict]:
+    """Validate raw legal files in data/landing/legal without network access."""
+    directory = Path(input_dir)
+    directory.mkdir(parents=True, exist_ok=True)
+    results = []
+    valid_extensions = {".pdf", ".docx", ".doc"}
+
+    for path in sorted(directory.iterdir()):
+        if not path.is_file() or path.name.startswith("."):
+            continue
+        metadata = _document_metadata_for_file(path)
+        valid = path.suffix.lower() in valid_extensions and path.stat().st_size > 0
+        reason = ""
+        if path.suffix.lower() == ".pdf":
+            try:
+                valid = valid and path.read_bytes()[:4] == b"%PDF"
+                if not valid:
+                    reason = "PDF magic bytes are invalid"
+            except OSError as exc:
+                valid = False
+                reason = str(exc)
+        elif path.suffix.lower() not in valid_extensions:
+            reason = "unsupported extension"
+        elif path.stat().st_size == 0:
+            reason = "empty file"
+
+        results.append(
+            {
+                "filename": path.name,
+                "path": str(path),
+                "size": path.stat().st_size,
+                "extension": path.suffix.lower(),
+                "valid": bool(valid),
+                "reason": reason,
+                "document_number": metadata.get("document_number", ""),
+                "source_url": metadata.get("source_page_url", ""),
+            }
+        )
+    return results
+
+
+def collect_legal_documents(
+    output_dir: str | Path = DATA_DIR,
+    download_missing: bool = False,
+) -> list[dict]:
+    """Public Task 1 API: validate existing files and optionally download missing ones."""
+    global DATA_DIR
+    previous_dir = DATA_DIR
+    DATA_DIR = Path(output_dir)
+    try:
+        collect_legal_docs(download_missing=download_missing)
+        return validate_legal_documents(DATA_DIR)
+    finally:
+        DATA_DIR = previous_dir
+
+
 def collect_legal_docs(download_missing: bool = False, overwrite: bool = False) -> list[Path]:
     """Return available legal documents, optionally downloading missing ones."""
     setup_directory()
@@ -133,5 +197,19 @@ def collect_legal_docs(download_missing: bool = False, overwrite: bool = False) 
 
 
 if __name__ == "__main__":
-    files = collect_legal_docs(download_missing=False)
-    _safe_log(f"Found {len(files)} legal documents in {DATA_DIR}")
+    parser = argparse.ArgumentParser(description="Task 1: validate/collect legal documents")
+    parser.add_argument("--validate-only", action="store_true")
+    parser.add_argument("--download-missing", action="store_true")
+    args = parser.parse_args()
+
+    if not args.validate_only:
+        collect_legal_docs(download_missing=args.download_missing)
+    rows = validate_legal_documents(DATA_DIR)
+    for row in rows:
+        status = "valid" if row["valid"] else f"invalid: {row['reason']}"
+        _safe_log(
+            f"{row['filename']} | {row['size']} bytes | {row['extension']} | "
+            f"{status} | {row['document_number']} | {row['source_url']}"
+        )
+    valid_count = sum(1 for row in rows if row["valid"] and row["extension"] in {".pdf", ".docx", ".doc"})
+    _safe_log(f"Found {valid_count} valid legal documents in {DATA_DIR}")

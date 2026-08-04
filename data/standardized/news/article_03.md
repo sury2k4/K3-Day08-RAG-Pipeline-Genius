@@ -1,8 +1,11 @@
-# Bộ Nội vụ đề xuất tăng lương tối thiểu vùng bình quân 7,8% từ ngày 1/1/2027
-
-**Source:** https://baochinhphu.vn/bo-noi-vu-de-xuat-tang-luong-toi-thieu-vung-binh-quan-78-tu-ngay-1-1-2027-10226072211235806.htm
-**Crawled:** 2026-08-04T10:25:06.735248
-
+---
+title: "Bộ Nội vụ đề xuất tăng lương tối thiểu vùng bình quân 7,8% từ ngày 1/1/2027"
+topic: ""
+source_name: ""
+source_url: "https://baochinhphu.vn/bo-noi-vu-de-xuat-tang-luong-toi-thieu-vung-binh-quan-78-tu-ngay-1-1-2027-10226072211235806.htm"
+crawled_at: "2026-08-04T10:25:06.735248"
+source_file: "article_03.json"
+corpus_type: "news"
 ---
 # Bộ Nội vụ đề xuất tăng lương tối thiểu vùng bình quân 7,8% từ ngày 1/1/2027
 

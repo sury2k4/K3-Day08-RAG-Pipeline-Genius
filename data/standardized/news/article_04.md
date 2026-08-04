@@ -1,8 +1,11 @@
-# QUY ĐỊNH MỚI: Tiêu chuẩn, điều kiện bổ nhiệm công chức giữ chức vụ lãnh đạo, quản lý
-
-**Source:** https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-tieu-chuan-dieu-kien-bo-nhiem-cong-chuc-giu-chuc-vu-lanh-dao-quan-ly-119260803104311863.htm
-**Crawled:** 2026-08-04T10:25:07.289736
-
+---
+title: "QUY ĐỊNH MỚI: Tiêu chuẩn, điều kiện bổ nhiệm công chức giữ chức vụ lãnh đạo, quản lý"
+topic: ""
+source_name: ""
+source_url: "https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-tieu-chuan-dieu-kien-bo-nhiem-cong-chuc-giu-chuc-vu-lanh-dao-quan-ly-119260803104311863.htm"
+crawled_at: "2026-08-04T10:25:07.289736"
+source_file: "article_04.json"
+corpus_type: "news"
 ---
 # QUY ĐỊNH MỚI: Tiêu chuẩn, điều kiện bổ nhiệm công chức giữ chức vụ lãnh đạo, quản lý
 
