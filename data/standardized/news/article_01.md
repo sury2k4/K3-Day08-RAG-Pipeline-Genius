@@ -32,3 +32,33 @@ Việc ban hành, đăng ký hoặc sửa đổi, bổ sung nội quy lao độn
 145/2020/NĐ-CP
 
 ngày 14/12/2020 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về điều kiện lao động và quan hệ lao động và các văn bản pháp luật có liên quan.
+
+Chinhphu.vn
+
+Tham khảo thêm
+
+Làm việc chưa đủ 12 tháng, tính ngày nghỉ phép thế nào?
+
+Tham khảo thêm
+
+Doanh nghiệp có được hoán đổi ngày nghỉ và bố trí làm bù?
+
+Tham khảo thêm
+
+Cách tính tiền lương làm thêm giờ ngày nghỉ lễ
+
+Tham khảo thêm
+
+Ngày nghỉ hằng tuần phải ghi vào nội quy lao động
+
+Tham khảo thêm
+
+Doanh nghiệp phải bố trí ngày nghỉ hằng năm cho người lao động
+
+Tham khảo thêm
+
+Cách tính số ngày nghỉ hằng năm của người lao động
+
+Tham khảo thêm
+
+Ngày nghỉ có hưởng lương gồm những ngày nào?

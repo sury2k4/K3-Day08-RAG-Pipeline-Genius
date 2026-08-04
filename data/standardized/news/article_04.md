@@ -80,3 +80,23 @@ d) Đang trong thời gian giải quyết tố cáo (đã có quyết định th
 e) Thuộc trường hợp khác chưa xem xét bổ nhiệm vào chức vụ cao hơn theo quy định của cơ quan có thẩm quyền.
 
 10. Các điều kiện khác theo quy định của cấp có thẩm quyền./.
+
+Tham khảo thêm
+
+SẮP XẾP TRƯỜNG HỌC: Khẩn trương bố trí nhân sự, bổ nhiệm hiệu trưởng, hiệu phó
+
+Tham khảo thêm
+
+SẮP XẾP TRẠM Y TẾ: Khẩn trương kiện toàn tổ chức bộ máy, bổ nhiệm nhân sự lãnh đạo, thu hút bác sĩ về cơ sở
+
+Tham khảo thêm
+
+Nghị định số 259/2026/NĐ-CP: Số lần bổ nhiệm lại viên chức quản lý
+
+Tham khảo thêm
+
+QUY ĐỊNH MỚI: Thành phần HỒ SƠ BỔ NHIỆM VIÊN CHỨC QUẢN LÝ
+
+Tham khảo thêm
+
+Tiêu chuẩn, điều kiện bổ nhiệm viên chức quản lý

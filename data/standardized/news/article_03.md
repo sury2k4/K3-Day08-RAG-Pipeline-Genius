@@ -54,3 +54,17 @@ Theo dự thảo, thời điểm áp dụng mức lương tối thiểu mới l�
 Cơ quan soạn thảo cũng khẳng định Nghị định không làm phát sinh thêm bộ máy, nhân lực để thi hành Nghị định. Phương án lương tối thiểu nêu trên đã tính đến các tác động về việc làm,thất nghiệp, điều kiện sản xuất, kinh doanh của các doanh nghiệp, mức độ ảnh hưởng đến chi phí sản xuất của doanh nghiệp.
 
 Đối với người lao động hiện nayđang hưởng lương thấp hơn mức lương tối thiểu thì được điều chỉnh lại để bảo đảm không thấp hơn mức lương tối thiểu mới; đối với người lao động đã đượctrả lương bằng hoặc cao hơn với mức lương tối thiểu mới thì việc điều chỉnh thực hiện theo các cam kết, thoả thuận của các bên ghi trong thoả ước lao động tập thể, hợp đồng lao động, quy chế của doanh nghiệp.
+
+Thu Giang
+
+Tham khảo thêm
+
+'Chốt' trình Chính phủ phương án tăng lương tối thiểu vùng 7,8% từ ngày 1/1/2027
+
+Tham khảo thêm
+
+Tăng lương tối thiểu vùng từ 1/1/2026
+
+Tham khảo thêm
+
+Xây dựng Nghị định mới về tăng lương tối thiểu áp dụng từ năm 2026
